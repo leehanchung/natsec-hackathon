@@ -7,6 +7,13 @@ A quick-start template using the OpenAI [Assistants API](https://platform.openai
 
 ## Quickstart Setup
 
+### 0. Data Sources
+
+- Vannevar supplied [social media scrapings in a .csv file](https://vl-nat-sec-hackathon-may-2024.s3.us-east-2.amazonaws.com/russia_social_media.csv). The file contains 2,918,944 of data.
+- File header is as follows ```id,time,body,translation,external_url,profile_type,description,name,attachment_urls```
+- We created an abridged file that only contains 10,000 entries.
+
+
 ### 1. Clone repo
 
 ```shell
